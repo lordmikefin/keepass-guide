@@ -26,7 +26,19 @@ cd "%HOMEDRIVE%%HOMEPATH%\Downloads"
 
 PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.50/KeePass-2.50-Setup.exe','.\KeePass-2.50-Setup.exe')}"
 
-::KeePass-2.50-Setup.exe /SAVEINF=todo.inf
-::KeePass-2.50-Setup.exe /SILENT /LOG=KeePass_install.log /LOADINF=todo.inf
+:: Create install configuration file
+::KeePass-2.50-Setup.exe /SAVEINF=KeePass-install.inf
+(
+echo [Setup]
+echo Lang=en
+echo Dir=C:\Program Files\KeePass Password Safe 2
+echo Group=KeePass Password Safe 2
+echo NoIcons=0
+echo SetupType=full
+echo Components=core,userdoc,keepasslibc,xsl,ngen,preload
+echo Tasks=fileassoc,desktopicon
+) > KeePass-install.inf
+
+KeePass-2.50-Setup.exe /SILENT /LOG=KeePass_install.log /LOADINF=KeePass-install.inf
 ```
 
