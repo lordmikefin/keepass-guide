@@ -52,6 +52,10 @@ And sync 'c:\resilio-sync-test' directory by using my [read only key](https://gi
 ## Open storage/database
 
 TODO: key file
-TODO: master password
+
+### Master password
+```
+DO_NOT_SHARE_MASTER_KEY_PUBLICLY
+```
 
 
