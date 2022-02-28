@@ -42,3 +42,16 @@ echo Tasks=fileassoc,desktopicon
 KeePass-2.50-Setup.exe /SILENT /LOG=KeePass_install.log /LOADINF=KeePass-install.inf
 ```
 
+## Password storage/database
+
+File 'keepass-pass-store.kdbx' in my Resilio Sync share is for testing purposes.
+Install Resilio Sync by using my [guide](https://github.com/lordmikefin/resilio-sync-guide).
+And sync 'c:\resilio-sync-test' directory by using my [read only key](https://github.com/lordmikefin/resilio-sync-guide/blob/main/sync/with-key.md).
+
+
+## Open storage/database
+
+TODO: key file
+TODO: master password
+
+
