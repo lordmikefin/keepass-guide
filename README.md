@@ -58,7 +58,10 @@ Key file and master password is needed to open the password database.
 This is more secure way because now access to passwords is in two parts.
 Both part can be shared separately.
 
-Download [the key file](./keepass-pass-store.keyx)
+Link to [the key file](./keepass-pass-store.keyx)
+
+Download raw [key file](https://raw.githubusercontent.com/lordmikefin/keepass-guide/main/keepass-pass-store.keyx)
+ (r-click -> Save as ...)
 
 
 ### Master password
