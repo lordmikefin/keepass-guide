@@ -63,6 +63,9 @@ Link to [the key file](./keepass-pass-store.keyx)
 Download raw [key file](https://raw.githubusercontent.com/lordmikefin/keepass-guide/main/keepass-pass-store.keyx)
  (r-click -> Save as ...)
 
+Download raw 
+<a href="./keepass-pass-store.keyx" download="mytextdocument">key file</a>
+
 
 ### Master password
 ```
