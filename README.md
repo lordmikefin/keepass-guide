@@ -51,21 +51,17 @@ And sync 'c:\resilio-sync-test' directory by using my [read only key](https://gi
 
 ## Open storage/database
 
-### Master key file
-
 Key file and master password is needed to open the password database.
 
 This is more secure way because now access to passwords is in two parts.
 Both part can be shared separately.
 
+### Master key file
+
 Link to [the key file](./keepass-pass-store.keyx)
 
 Download raw [key file](https://raw.githubusercontent.com/lordmikefin/keepass-guide/main/keepass-pass-store.keyx)
  (r-click -> Save as ...)
-
-Download raw 
-<a id="raw-url" href="https://raw.githubusercontent.com/lordmikefin/keepass-guide/main/keepass-pass-store.keyx">key file</a>
-
 
 ### Master password
 ```
